@@ -24,7 +24,7 @@ $ node app  -s 1 -a encode
 ```
 or 
 ```js
-$ node app  -shift 1 -action encode 
+$ node app  --shift 1 --action encode 
 ```
 
 ### Decode text
@@ -34,7 +34,7 @@ $ node app  -s 1 -a decode
 ```
 or 
 ```js
-$ node app  -shift 1 -action decode 
+$ node app  --shift 1 --action decode 
 ```
 
 ### Encode file
@@ -44,7 +44,7 @@ $ node app  -s 1 -a encode -i ./input.txt -o ./output.txt
 ```
 or 
 ```js
-$ node app  -shift 1 -action encode -input ./input.txt -output ./output.txt
+$ node app  --shift 1 --action encode --input ./input.txt --output ./output.txt
 ```
 
 ### Decode file
@@ -54,7 +54,7 @@ $ node app  -s 1 -a decode -i ./input.txt -o ./output.txt
 ```
 or 
 ```js
-$ node app  -shift 1 -action decode -input ./input.txt -output ./output.txt
+$ node app  --shift 1 --action decode --input ./input.txt --output ./output.txt
 ```
 
 ## Algorithm
